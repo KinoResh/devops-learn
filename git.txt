@@ -1,0 +1,11 @@
+git init - create new repository
+git clone <url> - download repository from GitHub
+git status - show what changed
+git add . - prepare all files for commit
+git commit -m "text" - save snapshot
+git push - send commits to GitHub
+git pull - download changes from GitHub
+git log - show commit history
+git branch - show all branches
+git switch -c <name> - create and switch to new branch
+git merge <name> - merge branch into current
