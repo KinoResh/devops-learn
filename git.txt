@@ -1,11 +1,32 @@
-git init - create new repository
-git clone <url> - download repository from GitHub
-git status - show what changed
-git add . - prepare all files for commit
-git commit -m "text" - save snapshot
-git push - send commits to GitHub
-git pull - download changes from GitHub
-git log - show commit history
-git branch - show all branches
-git switch -c <name> - create and switch to new branch
-git merge <name> - merge branch into current
+# Git базові команди
+
+## git status
+git status
+└─ показує що змінилось в папці
+
+## git add
+git add .
+├─ add   - підготувати файли до коміту
+└─ .     - означає "всі файли"
+
+git add notes.txt
+└─ notes.txt - тільки цей конкретний файл
+
+## git commit
+git commit -m "текст"
+├─ commit - зберегти знімок
+├─ -m     - далі буде повідомлення
+└─ "текст" - опис що ти зробив
+
+## git push
+git push
+└─ відправити коміти на GitHub
+
+git push -u origin main
+├─ -u      - запам'ятати куди пушити
+├─ origin  - псевдонім GitHub
+└─ main    - яку гілку відправити
+
+## git pull
+git pull
+└─ скачати зміни з GitHub
